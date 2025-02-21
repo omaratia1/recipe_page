@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3e5d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", serif;
+  padding: 50px 0;
+}
+
+.parent {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 66.67%;
+  padding: 50px 75px;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+
+h1 {
+  font-weight: 300;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  color: hsl(24, 5%, 18%);
+
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  margin-bottom: 20px;
+}
+
+.pink {
+  background-color: #fff7fc;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.time {
+  font-family: "Outfit", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+.pre {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.pre li {
+  line-height: 2em;
+}
+
+.pre li span {
+  font-weight: 500;
+}
+
+.instructions {
+  margin-top: 20px;
+  font-family: "Young Serif", serif;
+  margin-bottom: 20px;
+}
+
+.instructions span {
+  font-weight: bold;
+}
+
+.nutrition {
+  padding: 5px 0;
+  color: hsl(14, 45%, 36%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutrition .category {
+  color: black;
+  width: 50%;
+}
+
+.nutrition .value {
+  width: 50%;
+  color: hsl(14, 45%, 36%);
+}
+
+ul {
+  list-style-type: square;
+  margin-right: px;
+}
+
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 10px;
+ 
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.nun {
+  font-family: "Young Serif", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.circle li {
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+
+li span {
+  font-weight: 500;
+}
+
+ol li {
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+.nun2 {
+  margin-bottom: 20px;
+  
+}
+
+hr {
+  margin: 10px 0;
+}
+
